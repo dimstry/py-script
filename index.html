@@ -4,9 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
   <title>Py</title>
+  <py-env>
+    - paths:
+    - /itzy.py
+  </py-env>
 </head>
 <body>
-
+  <py-script>
+    print('hello Word');
+    form itzy import Member
+    Yeji=Member("Hwang Yeji" , "Leader" , 26.05.1999 ,"South Korea")
+  </py-script>
+  <py-script>
+    Yeji.get_name()
+  </py-script>
 </body>
 </html>
